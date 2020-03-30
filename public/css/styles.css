@@ -1,0 +1,295 @@
+.bodyMain{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+
+
+.footerstyle{
+    position: relative;
+    color: floralwhite;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.navbar{
+    background-color: black;
+    padding-top: 30px;
+    font-size: larger;    
+}
+
+.navbar-toggler-icon{
+    background-image: url("/pics/align-justify.svg");
+}
+
+
+.nav-link{
+    color: floralwhite;
+}
+
+/* footer*/
+
+.mainText{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.focus{
+   color: tomato;
+}
+.copyW{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: 	#D3D3D3;
+}
+
+.bts{
+    
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Style all font awesome icons */
+.fa {
+    margin-bottom: 30%;
+    margin: 5px;
+    padding: 22px;
+    font-size: 99%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .home-image {
+    background: url("/pics/wall.jpg") no-repeat center; 
+    background-size: cover;
+    height: 60vw;
+    position: relative;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 5%;
+  }
+  
+  .home-text {
+    text-align: left;
+    text-size-adjust: auto;
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .col-md{
+      color: black;
+      justify-content: center;
+      text-align: inherit;
+      position: relative;
+      padding-right: 20px;
+      padding-left: 10%;
+      padding-top: 4%;
+     
+  }
+
+  .mid-container{
+      padding-left: 8%;
+      padding-right: 5%;
+      padding-bottom: 60px;
+      padding-top: 60px;
+  }
+
+  .upper-col{
+      margin: 5%;
+      margin-bottom: 0px;
+  }
+
+  .bt-col{
+      margin-top: 0px;
+      padding-top: 30px;
+      margin-left: 5%;
+      
+  }
+
+  .low-container{
+      background-color: white;
+      padding: 10vw;
+  }
+
+  .low-row{
+      justify-content: center;
+  }
+
+  .low-col{
+      text-align: center;
+  }
+
+
+
+
+  /* About Page CSS*/
+
+
+  .abt{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 50px;
+      padding-right:50px;
+  }
+
+  .abt-up{
+        background: url("/pics/abt2.jpg") no-repeat center; 
+        background-size: cover;
+        height: 60vw;
+        position: relative;
+        text-align: center;
+        
+        padding-top: 20vw;
+  }
+
+  .abt-mid1-row{
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .abt-vector{
+      padding-left: 0%;
+      width: 80%;
+  }
+  .abt-mid1{
+    background-color: #fff6da;
+  }
+  
+  .abt-mid2{
+        padding-top: 290px;
+        padding-bottom: 300px;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+  }
+  .abt-low{
+        padding-top: 290px;
+        padding-bottom: 300px;
+        text-align: center;
+        justify-content: centers;
+        background-color: #f8eeb4;
+  }
+  .abt-mid2-row{
+    padding-bottom: 3.5px;
+    padding-left: 7px;
+    padding-right: 3.5px;
+    padding-top: 3.5px;
+  }
+
+  .abt-mid2-col{
+    padding-bottom: 3.5px;
+    padding-left: 7px;
+    padding-right: 3.5px;
+    padding-top: 3.5px;
+  }
+  /* Contact me page*/
+
+.contact-up{
+    background: url("/pics/abt1.png"); 
+    background-size: cover;
+    height: 60vw;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    
+    
+  
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.contact-mid{
+    background-color: #1b1919;
+    height: 60vw;
+    text-align: center;
+}
+.contact-low{
+    background: url("/pics/map.png"); 
+    background-size: cover;
+    height: 60vw;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-up-row{
+    padding-top: 20vw;
+    padding-left: 5vw;
+}
+.contact-mid-row{
+    padding-top: 10vw;
+    padding-left: 24vw;
+    padding-right: 24vw;
+    padding-bottom: 0vw;
+}
+
+.i-gal {
+    height: 20em;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+
+
+
+/* Index */
+
+.wrapper{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: white;
+}
+.neon-wrapper {
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #e97272, 
+    0 0   4vw  0.4vw #e50b0b,
+    inset 0 0 1.5vw  0.4vw #e50b0b,
+    inset 0 0 0.4vw  0.2vw #e97272,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+    border-radius: 1.5rem;
+  }
+
+@font-face {
+    font-family: neon;
+    src: url(hellodenverdisplayregular_v1.6.ttf);
+}
+  
+
+.neon-text{
+    font-family: neon;
+    text-align: center;
+    font-size: 3vw;
+    color: #ffd8d8;
+    padding: 20px;
+    text-shadow: 
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+    .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+
+}
