@@ -9,7 +9,12 @@
   "engines": {
     "node": "12.16.x",
     "npm": "6.x"
-  }
+  },
   "author": "Saurabh Raj",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
 }
